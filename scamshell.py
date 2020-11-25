@@ -61,6 +61,7 @@ if (user=="2"):
 if (user=="shellup"):
            print ("[+] Wait to HOST the page")
            SHELL('sleep 9')
+           SHELL('chmod 777 SHAHO')
            SHELL('./SHAHO http 8080')
 if (user=="shelldown"):
         os.chdir("/sdcard")
