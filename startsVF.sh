@@ -20,6 +20,6 @@ printf "Wait to starts :\n\r "
 sleep 3
 printf "\033[93m\n\r"
 
-php -S localhost:8080 shellcam/snap.php
+php -S localhost:8080 snap.php
 
 fi
